@@ -14,9 +14,9 @@ dicionario = {"1": "PEDRA",
               '5':'SPOCK'}
               
 while True:
-      if ponto1 == 3:
+      if ponto1 == 5:
           break
-      elif pontopc == 3:
+      elif pontopc == 5:
           break
       number1 = randint(1,5)
       number = str(number1)
@@ -86,4 +86,3 @@ if pontopc == 3:
     print("Computador venceu!")
 else:
     print("Você venceu!")
-
